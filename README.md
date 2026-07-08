@@ -1,5 +1,9 @@
 # Unity Scene Production Toolkit 🎬
 
+[![GitHub](https://img.shields.io/badge/GitHub-erfengqxb/UnitySceneProductionToolkit-181717?logo=github)](https://github.com/erfengqxb/UnitySceneProductionToolkit)
+![Unity](https://img.shields.io/badge/Unity-2022.3_LTS-000000?logo=unity)
+![C#](https://img.shields.io/badge/C%23-_.NET_Standard_2.1-239120?logo=csharp)
+
 **Unity 三维场景内容生产工具集**
 
 一站式 Unity 场景生产管线工具包 — 覆盖**资产导入 → 场景搭建 → 录制流程 → 质量检查 → 批量导出**全链路。专为三维场景内容生产（仿真、数字孪生、虚拟拍摄、场景扫描重建）设计。
