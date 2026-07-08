@@ -1,0 +1,33 @@
+{
+    "presetName": "SampleIndoorWalkthrough",
+    "description": "示例：室内漫游路径",
+    "defaultCaptureRate": 30,
+    "pathSmoothness": 0.5,
+    "enableAutoKeyframe": true,
+    "autoKeyframeInterval": 0.3,
+    "loopPlayback": false,
+    "pingPongPlayback": false,
+    "playbackSpeed": 0.8,
+    "cameraAnimation": {
+        "useEasing": true,
+        "interpolation": 3,
+        "lookAtTarget": false,
+        "lockYAxis": true,
+        "handheldShakeAmount": 0.005,
+        "shakeFrequency": 1.5
+    },
+    "npcPlacements": [
+        {
+            "npcId": "Receptionist",
+            "prefabPath": "Assets/Prefabs/NPCs/Receptionist.prefab",
+            "position": [2.0, 0.0, 1.5],
+            "rotation": [0.0, -90.0, 0.0],
+            "scale": 1.0,
+            "animationState": "Idle",
+            "enablePatrol": false,
+            "patrolPoints": [],
+            "patrolSpeed": 1.2,
+            "lookAtCamera": true
+        }
+    ]
+}

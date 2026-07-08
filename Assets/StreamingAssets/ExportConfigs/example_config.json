@@ -1,0 +1,72 @@
+{
+    "configName": "ExampleSceneConfig",
+    "version": "1.0",
+    "description": "示例场景配置文件 — 供 SceneConfigLoader 加载",
+    "exportTime": 1704067200000,
+    "recordingPreset": {
+        "presetName": "AerialView",
+        "description": "航拍视角环绕路径",
+        "defaultCaptureRate": 30,
+        "pathSmoothness": 0.8,
+        "enableAutoKeyframe": true,
+        "autoKeyframeInterval": 0.5,
+        "loopPlayback": false,
+        "pingPongPlayback": true,
+        "playbackSpeed": 1.0,
+        "cameraAnimation": {
+            "useEasing": true,
+            "interpolation": 3,
+            "lookAtTarget": false,
+            "lockYAxis": false,
+            "handheldShakeAmount": 0.0,
+            "shakeFrequency": 1.0
+        },
+        "npcPlacements": [
+            {
+                "npcId": "Guide_NPC",
+                "prefabPath": "Assets/Prefabs/NPCs/Guide.prefab",
+                "position": [5.0, 0.0, 3.0],
+                "rotation": [0.0, 180.0, 0.0],
+                "scale": 1.0,
+                "animationState": "Idle",
+                "enablePatrol": true,
+                "patrolPoints": [
+                    [5.0, 0.0, 3.0],
+                    [8.0, 0.0, 3.0],
+                    [8.0, 0.0, 0.0]
+                ],
+                "patrolSpeed": 1.2,
+                "lookAtCamera": true
+            }
+        ]
+    },
+    "cameras": [
+        {
+            "name": "MainCamera",
+            "position": [10.0, 5.0, -10.0],
+            "rotation": [20.0, -45.0, 0.0],
+            "fov": 60,
+            "nearClip": 0.1,
+            "farClip": 1000
+        },
+        {
+            "name": "RecordingCamera",
+            "position": [0.0, 2.0, -5.0],
+            "rotation": [15.0, 0.0, 0.0],
+            "fov": 70,
+            "nearClip": 0.1,
+            "farClip": 500
+        }
+    ],
+    "lights": [
+        {
+            "name": "DirectionalLight",
+            "position": [0.0, 30.0, 0.0],
+            "rotation": [50.0, -30.0, 0.0],
+            "lightType": "Directional",
+            "color": "FFF4E0",
+            "intensity": 1.2
+        }
+    ],
+    "objects": []
+}

@@ -1,0 +1,20 @@
+{
+    "presetName": "SampleAerialView",
+    "description": "示例：航拍环绕路径预设",
+    "defaultCaptureRate": 30,
+    "pathSmoothness": 0.8,
+    "enableAutoKeyframe": true,
+    "autoKeyframeInterval": 0.5,
+    "loopPlayback": false,
+    "pingPongPlayback": true,
+    "playbackSpeed": 1.0,
+    "cameraAnimation": {
+        "useEasing": true,
+        "interpolation": 3,
+        "lookAtTarget": false,
+        "lockYAxis": false,
+        "handheldShakeAmount": 0.0,
+        "shakeFrequency": 1.0
+    },
+    "npcPlacements": []
+}
